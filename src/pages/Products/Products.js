@@ -12,7 +12,7 @@ const Products = () => {
     <div className='product-main'>
         <div className='product-head'>
             <div className='head-txt'> 
-                <h3> Available Stores in Your Area </h3>
+                <h3> Available Store in Your Area </h3>
             </div>
 
             <div className='head-img'>

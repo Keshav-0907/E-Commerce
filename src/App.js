@@ -10,7 +10,6 @@ import Register from './pages/Auth/Register';
 import Products from './pages/Products/Products';
 import RamDairy from './Shops/Dairy/RamDairy';
 import Admin from './pages/Admin/Admin';
-import Cart from './pages/Cart/Cart';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
     <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/cart' element={<Cart/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/OrderHistory' element={<OrderHistory/>}/>
         <Route path='/Login' element={<Login/>}/>
