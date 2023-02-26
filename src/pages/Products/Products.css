@@ -1,0 +1,51 @@
+.product-main{
+    height: 78vh;
+}
+
+.stores{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.Head{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product-head{
+    display: flex;
+    flex-direction: row;
+    margin: 10x 30px;
+    justify-content: space-between;
+    border-radius: 70px;
+    box-shadow: 1.5px 2px #000000;
+}
+
+.head-txt h3{
+    font-size: 70px;
+    color: #EABDBD;
+    text-shadow: 2px 2px #000000;
+}
+
+.old-products{
+    display: flex;
+    flex-direction: column;
+}
+
+.oldprod-main{
+    display: flex;
+    justify-content:center;
+}
+
+.prod-img{
+    width: 100px;
+}
+
+.prod{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}

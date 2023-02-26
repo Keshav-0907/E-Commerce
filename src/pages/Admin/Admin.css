@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.head-2{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.new-product{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(195, 246, 199);
+    margin-top: 40px;
+    width: 1200px;
+    border-radius: 10px;
+    margin-left: 110px;
+}
+
+.new-procuct-input{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.product-inp{
+    width: 300px;
+}
+
+.Button-New{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.old-products{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.del-btn{
+    width: 100px;
+    margin-left: 120px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.item{
+    min-width: 250%;
+    margin: 20px, 80px;
+}
+
+.keshav{
+    height: 100vh;
+}
+
+.oldprod-main{
+    text-align: center;
+    align-items: center;
+}
+
+.prod-title{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.prod-price{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.prod-delete{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
