@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-import img1 from '/Users/keshavmalik/Desktop/Projects/Ecom1/shop/src/Images/producthead.png'
+import img1 from '../Images/producthead.png'
 
 const Products = () => {
   return (

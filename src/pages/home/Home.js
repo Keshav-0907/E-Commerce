@@ -1,11 +1,10 @@
 import React from 'react'
-import {Button} from "@mui/material/"
 import "./home.css"
 import { Link } from 'react-router-dom'
-import heroimage from '/Users/keshavmalik/Desktop/Projects/Ecom1/shop/src/Images/Hero.png'
-import trust from '/Users/keshavmalik/Desktop/Projects/Ecom1/shop/src/Images/trust.png'
-import boost from '/Users/keshavmalik/Desktop/Projects/Ecom1/shop/src/Images/boost.png'
-import support from '/Users/keshavmalik/Desktop/Projects/Ecom1/shop/src/Images/support.png'
+import heroimage from '../Images/Hero.png'
+import trust from '../Images/trust.png'
+import boost from '../Images/boost.png'
+import support from '../Images/support.png'
 
 const Home = () => {
   return (
