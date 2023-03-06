@@ -18,14 +18,15 @@
     display: flex;
     flex-direction: row;
     margin: 10x 30px;
-    justify-content: space-between;
+    background-color: rgb(247, 202, 202);
+    justify-content: space-around;
     border-radius: 70px;
     box-shadow: 1.5px 2px #000000;
 }
 
 .head-txt h3{
+    margin-top: 60px;
     font-size: 70px;
-    color: #EABDBD;
     text-shadow: 2px 2px #000000;
 }
 
