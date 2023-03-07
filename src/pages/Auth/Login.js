@@ -7,7 +7,7 @@ import { auth } from './config'
 
 function Login() {
 
-  const [user1, setUser] = useState({});
+  const [setUser] = useState({});
 
   onAuthStateChanged(auth, (currentUser) => {
     setUser(currentUser);

@@ -91,32 +91,7 @@ const Admin = () => {
 
                 </div>
               </div>
-              {/* <div className='item'>
-              <Card sx={{ maxWidth: 400 }}>
-                  <CardActionArea>
-                      <CardMedia
-                          component="img"s
-                          height="180"
-                          src={user.url}
-                          alt="green iguana"
-                      />
-                      <CardContent>
-                          <Typography gutterBottom variant="h5" component="div"> {user.title} </Typography>
-                          <Typography variant="body2" color="text.secondary">
-                              {user.tag}
-                          </Typography>
-                      </CardContent>
 
-                  </CardActionArea>
-
-                  <div className='card-info'>
-                      <h3>₹ {user.price} </h3>
-                      <Button className='del-btn' onClick={()=>{deleteProd(product.id)}} size="large"> Delete < MdDelete size={20}/></Button>
-                  </div>
-
-
-              </Card>
-              </div> */}
             </>
 
           )

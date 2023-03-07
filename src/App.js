@@ -5,7 +5,6 @@ import Home from "./pages/home/Home"
 import Contact from './pages/contact/Contact';
 import OrderHistory from './pages/orderHistory/OrderHistory';
 import Login from './pages/Auth/Login';
-import Register from './pages/Auth/Register';
 import Products from './pages/Products/Products';
 import RamDairy from './pages/Dairy/RamDairy';
 import Admin from './pages/Admin/Admin';
@@ -19,7 +18,6 @@ function App() {
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/OrderHistory' element={<OrderHistory/>}/>
         <Route path='/Login' element={<Login/>}/>
-        <Route path='/Register' element={<Register/>}/>
         <Route path='/Products' element={<Products/>}/>
         <Route path='/RamDairy' element={<RamDairy/>}/>
         <Route path='/Admin' element={<Admin/>}/>

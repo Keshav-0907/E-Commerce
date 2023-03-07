@@ -1,8 +1,6 @@
 import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
-import {FaShoppingCart} from "react-icons/fa"
-import {HiOutlineMenuAlt1} from "react-icons/hi"
 import { NavLink } from 'react-router-dom'
 import { useAuth0 } from "@auth0/auth0-react";
 import { Button } from '@mui/material'
@@ -16,16 +14,6 @@ const logo = (
         </Link>
         </div>
 )
-
-// const cart = (
-//   <span className="">
-//               <Link to='/cart'>
-//                 <FaShoppingCart size={20}/>
-//                  <p>Cart</p>   
-//               </Link>
-//             </span>
-// )
-
 
 const Header = () => {
 
