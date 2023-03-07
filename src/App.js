@@ -7,7 +7,7 @@ import OrderHistory from './pages/orderHistory/OrderHistory';
 import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
 import Products from './pages/Products/Products';
-import RamDairy from './Shops/Dairy/RamDairy';
+import RamDairy from './pages/Dairy/RamDairy';
 import Admin from './pages/Admin/Admin';
 
 function App() {

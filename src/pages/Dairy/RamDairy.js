@@ -8,9 +8,7 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import { collection, getDocs } from 'firebase/firestore';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import { db } from '/Users/keshavmalik/Desktop/Projects/Ecom1/shop/src/pages/Auth/config.js';
-
-
+import { db } from '../Auth/config';
 
 
 const RamDairy = () => {
